@@ -27,3 +27,19 @@ Ensure you have the following installed:
 - Git
 - NPM (Node Package Manager)
 
+# Steps
+
+## Install dependencies:
+npm install
+
+## Run unit tests using Jest:
+npm test
+
+## Building & Running with Docker
+docker build -t ci-cd-demo-app .
+
+## To run the container:
+docker run -p 3000:3000 ci-cd-demo-app
+
+
+
